@@ -71,6 +71,7 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
         ident: 'postcss',
         plugins: () => [
           require('postcss-flexbugs-fixes'),
+          require('postcss-strip-inline-comments'),
           tailwindcss('./config/tailwind.js'),
           autoprefixer({
             flexbox: 'no-2009',
