@@ -1,7 +1,8 @@
 {
   "name": "@thomasbrus/react-scripts",
-  "version": "2.0.0-next.a671462c",
-  "description": "Configuration and scripts for Create React App + Tailwind CSS.",
+  "version": "2.0.0-next.96cf4f06",
+  "description":
+    "Configuration and scripts for Create React App + Tailwind CSS.",
   "repository": "thomasbrus/create-react-app",
   "license": "MIT",
   "engines": {
@@ -10,13 +11,7 @@
   "bugs": {
     "url": "https://github.com/thomasbrus/create-react-app/issues"
   },
-  "files": [
-    "bin",
-    "config",
-    "scripts",
-    "template",
-    "utils"
-  ],
+  "files": ["bin", "config", "scripts", "template", "utils"],
   "bin": {
     "react-scripts": "./bin/react-scripts.js"
   },
@@ -90,11 +85,6 @@
       "last 2 firefox versions",
       "last 2 edge versions"
     ],
-    "production": [
-      ">1%",
-      "last 4 versions",
-      "Firefox ESR",
-      "not ie < 11"
-    ]
+    "production": [">1%", "last 4 versions", "Firefox ESR", "not ie < 11"]
   }
 }
